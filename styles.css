@@ -1,0 +1,118 @@
+@font-face {
+  font-family: Bellinda;
+  src: url(Bellinda.ttf);
+}
+
+#header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  font-family: Bellinda;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+#logo {
+  width: 280px;
+  cursor: pointer;
+}
+
+.hr-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.hr {
+  margin: 0px 10px 0 10px;
+  height: 1px;
+  width: 100%;
+  background-color: rgb(219, 219, 219);
+}
+
+.root {
+  width: 500px;
+}
+
+.container {
+  border: 1px solid rgb(219, 219, 219);
+  /* padding: 0px 10px 200px 0px; */
+  height: fit-content;
+  margin: auto;
+  padding-bottom: 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: nowrap; */
+  align-items: center;
+  justify-content: center;
+}
+
+.input-details {
+  padding: 0px 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(219, 219, 219);
+  width: 250px;
+  height: 30px;
+  outline-color: #1877f2;
+  outline-width: 1px;
+  box-shadow: none;
+  background: none;
+}
+
+.forget-password {
+  font-size: 13px;
+  margin-left: 180px;
+  color: #1877f2;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  font-weight: 100;
+}
+
+.btn {
+  padding: 8px 120px;
+  width: fit-content;
+  color: white;
+  background: #1877f2;
+  border-radius: 10px;
+  margin: 8px 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-up {
+  margin-top: 40px;
+  color: #1877f2;
+  font-weight: bold;
+}
+
+p {
+  colr: black;
+}
+
+select {
+  border: none;
+}
+
+.meta {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fafafa;
+}
